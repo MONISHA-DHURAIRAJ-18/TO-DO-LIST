@@ -1,1 +1,38 @@
 # TO-DO-LIST
+<center>
+<div class="header">
+    <h1>My DO To List</h1>
+    <link rel="stylesheet" href="style.css">
+<input id="input" placeholder="Tittle....">
+<button class="one" onclick="f()">ADD</button>
+<button class="three" onclick="fff()">RESET</button>
+<ul id="list">
+    <li>
+        <button class="two" onclick="ff(event)">Delete</button>
+    </li>
+</ul>
+</div>
+</center>
+
+
+<script>
+
+     var ul=document.getElementById("list")
+     var input=document.getElementById("input")
+    function f(){
+      
+       var listitem=document.createElement("li")
+       listitem.innerHTML=input.value+"<button class='two' onclick='ff(event)'>Delete</button>"
+       ul.append(listitem)
+    }
+
+       function ff(event){
+          event.target.parentElement.remove()
+          
+       }
+       function fff(){
+        document.getElementById("input").value = "";
+        document.getElementById("list").innerHTML = "";
+       }
+    
+</script>
