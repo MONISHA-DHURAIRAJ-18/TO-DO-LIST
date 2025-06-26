@@ -1,0 +1,95 @@
+div{
+    box-sizing: 0;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0%;
+    display: inline-block;
+   
+    
+}
+.one{
+   
+    display: inline;
+    height: 35px;
+        padding: 0 12px;
+        border-radius: 6px;
+        font-weight: bold;
+        background-color: hotpink;
+        color: white;
+        border: none;
+        cursor: pointer
+}
+h1{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: palevioletred;
+    margin-bottom: 30%;
+   
+
+}
+input{
+    margin-bottom: 80px;
+    display: inline;
+    font-size: medium;
+    box-sizing: 90px;
+    border-radius: 6px;
+    
+    
+}
+.one:hover{
+    background-color: green;
+    cursor: pointer;
+   
+}
+ul,li:hover{
+    background-color: black;
+    color: white;
+    padding: 0;
+    text-align: left;
+   
+
+}
+.two:hover{
+    cursor: pointer;
+    
+    background-color: red;
+}
+input {
+    width: 700px;
+    height: 35px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.two{
+    margin-left: 800px;
+    padding: 0 12px;
+        border-radius: 6px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer
+}
+li {
+    list-style-type: none;
+    padding-left: 0;
+}
+.three{
+    display: inline;
+    height: 35px;
+        padding: 0 12px;
+        border-radius: 6px;
+        font-weight: bold;
+        background-color: hotpink;
+        color: white;
+        border: none;
+        cursor: pointer
+}
+.three:hover{
+    background-color: blue;
+}
